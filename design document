@@ -1,0 +1,33 @@
+
+The workflow to use the program is as follows - 
+
+On the first time the user has to select option 4 to enter a directory to be parsed. 
+
+All the files in the directory and the sub-directories are parsed into the trie after tokenization and normalization. 
+
+Then the user is again asked whether he wants to run a spellcheck, tokenization-normalization, retrieve documents, or add new directories to the corpus.
+
+Note that if the user opts for running spell-check or tokenization-normalization the Querry won't fetch documents.
+
+During the document retrieval process - 
+
+First the Querry is tokenized and normalized to make a vector of strings.
+
+Then spell-check is automatically run on the strings. If a word is not found in the dictionary, then the program prompts the user to run a spell-correct and then the top 10 suggested options are displayed from which the user can select a word to be considered for the search.
+
+After all the spell-corrections are made, then the user can choose to display and/or store the results to a file.
+
+The whole process can be repeated again till the user wishes to exit.
+
+/*****************************************************************************************************/
+
+Trie was used as the choice of data structure for fast retrieval of the documents.
+
+Trie is an efficient information retrieval data structure. Using trie, search complexities can be brought to optimal limit (key length). If we store keys in binary search tree, a well balanced BST will need time proportional to M * log N, where M is maximum string length and N is number of keys in tree. Using trie, we can search the key in O(M) time. However the penalty is on trie storage requirements.
+
+Every node of trie consists of multiple branches. Each branch represents a possible character of keys. For every last Key there is a vector to store the doc id and the frequency of words in that document. The variable count represents the overall sum of all the occurences for that word.
+
+/*****************************************************************************************************/
+
+C++ STL was used to provide auxillary data structures such as map, vector, pair etc..
+

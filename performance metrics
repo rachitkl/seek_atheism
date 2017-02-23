@@ -1,0 +1,25 @@
+query				folder		relevant	number of results 	rank	relevant retrieved	F-measure 
+lifetime imprisonment		atheism/17	1016		20			4	4			0.007
+Norris Division winner		hockey/12	1000		20			2	13			0.025
+digital television		comp_graph/29	1011		20			6	2			0.003
+anti-depressant drugs		sci-med/23	1000		20			2	4			0.007
+SUV spectrum			rec_autos	1004		20			8	11			0.021
+Armenian villagers		talk_politics	1003		20			17	10			0.190
+Pilot Astronaut Candidates	sci_space	1001		20			2	19			0.037
+God's creation			talk_religion	1124		20			2	13			0.022
+wiretapping			sci_cript	1000		20			3	16			0.031
+Timeshare week			forsale		1010		20			1	1			0.001
+street bikes			motorcycles	1000		20			3	14			0.027
+Tango PCB			ibm		1015		20			1	2			0.003
+Essene Gospel			christain	997		20			1	11			0.021
+Dac Blanking			electronics	1008		20			12	10			0.019
+Interface Architect		windows		1002		20			7	5			0.009
+baserunners			baseball	1000		20			1	7			0.013
+gun murderers			guns		1052		20			6	9			0.016
+Jewish zelots			politics_misc	1171		20			6	6			0.010
+windows Charmap display		ms_windows	1001		20			2	3			0.005
+bible scriptures		relgion misc	1124		20			7	2			0.003
+
+MRR 0.423
+MAP 0.405
+
