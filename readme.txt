@@ -10,4 +10,4 @@ g++ a.cpp -o a -std=c++11 -fopenmp -I/home/<user>/boostcpp/include/boost/ -I /ho
 
 4. github repository - https://github.com/rachitkl/seek_atheism
 
-
+5. Libraries are not added in this repository. (You can always request it as and when required).
